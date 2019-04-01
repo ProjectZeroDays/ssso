@@ -79,6 +79,6 @@ CMD exec ss-server \
       -t $TIMEOUT \
       -d $DNS_ADDRS \
       -u \
-      --plugin simple-obfs \
-      --plugin-opts obfs=tls \
+      --plugin obfs-server \
+      --plugin-opts "obfs=tls" \
       $ARGS
