@@ -3,7 +3,7 @@
 #
 
 FROM alpine
-LABEL maintainer="kev <noreply@datageek.info>, Sah <contact@leesah.name>"
+LABEL maintainer=dc
 
 ENV SERVER_ADDR 0.0.0.0
 ENV SERVER_PORT 8388
