@@ -9,7 +9,7 @@ docker run -d -e PASSWORD=<YOUR PASSWORD> -p <YOUR EXPOSE PORT>:8388 -p <YOUR EX
 
 e.g.
 ```bash
-docker run -d -e PASSWORD=ssso -p 10086:8388 -p 10086:8388/udp dawncold/ssso:latest
+docker run --restart always -d -e PASSWORD=ssso -p 10086:8388 -p 10086:8388/udp dawncold/ssso:latest
 ```
 
 
